@@ -36,6 +36,7 @@ public class ChatActivity extends AppCompatActivity implements TextWatcher {
     private String SERVER_PATH = "ws://echo.websocket.org";
 //    private String SERVER_PATH = "ws://SERVER-IP-HERE:PORT-NUMBER-HERE";
     private EditText messageEdit;
+
     private View sendBtn, pickImgBtn;
     private RecyclerView recyclerView;
     private int IMAGE_REQUEST_ID = 1;
